@@ -1,15 +1,15 @@
 
 def fib(max):
-    num = 1
-    lista = [1]
+    number = 1
+    list = [1]
     for i in range(1, max):
-        lista.append(num)
-        num = num + lista[i-1]
-    return lista
+        list.append(number)
+        number = number + lista[i-1]
+    return list
 
-lista_final = fib(2000)
-numero = lista_final[len(lista_final)-1] / lista_final[len(lista_final)-2]
-print(numero, len(lista_final))
+finalList = fib(2000)
+number = finalList[len(finalList)-1] / finalList[len(finalList)-2]
+print(number, len(finalList))
 
 
 
